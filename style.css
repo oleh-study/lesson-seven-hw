@@ -1,0 +1,71 @@
+nav {
+    display: flex;
+    width: 100%;
+    background-color: #211F1F;
+    align-items: center;
+    height: 50px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+img {
+    height: 40px;
+}
+
+button {
+    border: none;
+    background-color: #4D4C4C;
+    display: flex;
+    align-items: center;
+    color: #fff;
+    height: 30px;
+    border-radius: 5px;
+    margin-left: 10px;
+}
+
+button img {
+    height: 20px;
+    padding-right: 3px;
+}
+
+.menu img {
+    height: 20px;
+    margin: 0px 17px;
+}
+
+.search {
+    background-color: #fff;
+    height: 30px;
+    display: flex;
+    align-items: center;
+    margin-left: 15px;
+    border-radius: 3px;
+}
+
+.search img {
+    height: 20px;
+}
+
+.search .a {
+    color: #8d8d8d;
+    width: 100px;
+    margin: 0px 250px 0px 5px;
+}
+
+.search .b {
+    color: #fff;
+    background-color: #479E50;
+    padding: 7px 10px;
+    font-size: small;
+    border-top-right-radius: 3px;
+    border-bottom-right-radius: 3px;
+}
+
+.lang img {
+    height: 30px;
+    padding-left: 12px;
+}
+
+.account img, .cart img {
+    height: 30px;
+    padding-left: 10px;
+}
